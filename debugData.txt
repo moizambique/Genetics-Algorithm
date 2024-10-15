@@ -1,0 +1,11 @@
+# Format: [Day 1 Change] [Day 2 Change] [Profit/Loss]
+-2.0   1.0   10.0   # Scenario where the first day is a loss but a subsequent gain results in a profit
+0.0    1.0   15.0   # Day 1 unchanged, Day 2 gains profit
+1.5   -0.5   -5.0   # Day 1 gain, Day 2 loss resulting in a small loss
+0.5    0.5   20.0   # Both days have small gains resulting in significant profit
+-1.0   -1.0   -30.0  # Two days of losses leading to a larger loss
+0.0    0.0   0.0    # No change on both days, results in no profit or loss
+1.0    -1.0   5.0    # First day profit, second day loss, but net profit still exists
+2.0    0.5   25.0   # High positive change resulting in a good profit
+-0.5   1.5   12.0   # Day 1 small loss, followed by a recovery on Day 2
+-1.5   1.0   -5.0   # Overall loss despite a gain on Day 2
