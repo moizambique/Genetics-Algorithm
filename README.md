@@ -5,7 +5,7 @@ This project implements a genetic algorithm to detect 2-day chart patterns in fi
 
 ## How to Run
 To execute the program, use the following command in the terminal:
-python genetic_algorithm.py --population <initial_population_size> --generations <number_of_generations> --mutation <mutation_rate> --crossover <crossover_type> --selection <selection_type> --data <data_file>
+python "Genetics-Algorithm.py" --population 100 --generations 50 --mutation 0.01 --crossover uniform --selection elitist --data "genAlgData1.txt"
 
 ### Command Line Arguments
 - `--population`: Set the initial population size (default: 100).
